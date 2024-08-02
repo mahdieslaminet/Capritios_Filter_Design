@@ -1,0 +1,23 @@
+References
+
+34.	G. Keerthiga and S. P. Kumar, “Evaluating FPGA-based denoising
+techniques for improved signal quality in electrocardiograms,”
+Analog Integrated Circuits and Signal Processing, 2024, doi: 
+10.1007/s10470-024-02277-w.
+35.	M. Sinnoor and S. K. Janardhan, “An ECG Denoising Method Based
+on Hybrid MLTP-EEMD Model,” International Journal of Intelligent 
+Engineering and Systems, vol. 15, no. 1, pp. 575–583, 2022, doi: 
+10.22266/IJIES2022.0228.52.  
+36.	A. Gon and A. Mukherjee, “Design and FPGA Implementation of an
+Efficient Architecture for Noise Removal in ECG Signals Using
+Lifting-Based Wavelet Denoising,” in 2023 11th International 
+Symposium on Electronic Systems Devices and Computing, ESDC 2023,
+Institute of Electrical and Electronics Engineers Inc., 2023. doi:
+10.1109/ESDC56251.2023.10149865.
+37.	A. S. Deulkar and N. R. Kolhare, “FPGA implementation of audio
+and video processing based on Zedboard,” in Proceedings of the 
+2020 International Conference on Smart Innovations in Design, 
+Environment, Management, Planning and Computing, ICSIDEMPC 2020, 
+2020, pp. 305–310. doi: 10.1109/ICSIDEMPC49020.2020.9299639.
+38.	[1]L. Shang, A. S. Kaviani, and K. Bathala, “Dynamic Power 
+Consumption in VirtexTM-II FPGA Family,” 2002.
