@@ -1,4 +1,4 @@
-# Capritios-Filter-Design
+# Capritious-Filter-Design
 
 This github repository contains the project code, articles and dataset access link
 if you haven't access to drived files, send mail to author
