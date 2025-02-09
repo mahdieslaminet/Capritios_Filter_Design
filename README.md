@@ -48,30 +48,29 @@ from two weeks to one week while also optimizing resource usage, as evidenced by
 utilization.
 
 
-Filters are applied to eradicate unwanted noise from the needed input signal’s frequency range [33]. Recently, the 
-investigators try to design the CDFs for providing feasible realization of digital filters [18, 19, 27, 28]. The CDFs 
-are used to manage several parameters for giving variable frequency response [7, 32]. The FIR is deemed as the admired
-CDF filter; this is applied in many domains [4, 13]. But, FIR filter contains more hardware complex, also it occupies
-more operating power [24]. The 2D digital filter reduces the complexity with the help of quadrant symmetric concept 
-[10]. It diminishes more filter coefficients [30]. The ideal frequency response is accomplished through fractional 
-order digital discriminate (FOD) [14, 16].
-Capricious digital filter is based upon filters operating frequency (OF) [25]. The complexity of Capricious digital 
-filter is decreased with the help of all pass makeover (APM) [15]. APM restores every prototype filters delay unit 
-as well as it maintains operatingfrequency[11,17].Byfixedcoefficientprototypefilter,thevariablelowpass, high pass, 
-band pass, and band stop responses are acquired [1]. APM-CDF is applied to different audio functioning. The aim of 
-APM-CDF is “to high speed APM-CDF implementation along superior operational frequency” [23]. The fundamental 
-arithmetic procedures have addition with multiplication. Generally, ternary logic 
-
-needs low components, it realizes higher data transmission during interlink wires [33]. Hence, it occupies lower
-area than binary for distributed functions. It processes the data effectually with higher speed. These are motivated 
-to design arithmetic and logic circuits for APM-CDF.
+Filters are applied to eradicate unwanted noise from the needed input signal’s frequency range. Recently, the 
+investigators try to design the CDFs for providing feasible realization of digital filters. The CDFs are used
+to manage several parameters for giving variable frequency response. The FIR is deemed as the admired CDF filter;
+this is applied in many domains. But, FIR filter contains more hardware complex, also it occupies more operating
+power. The 2D digital filter reduces the complexity with the help of quadrant symmetric concept.
+It diminishes more filter coefficients. The ideal frequency response is accomplished through fractional order
+digital discriminate (FOD).
+Capricious digital filter is based upon filters operating frequency (OF). The complexity of Capricious digital 
+filter is decreased with the help of all pass makeover (APM). APM restores every prototype filters delay unit 
+as well as it maintains operatingfrequency.Byfixedcoefficientprototypefilter,thevariablelowpass, high pass, 
+band pass, and band stop responses are acquired. APM-CDF is applied to different audio functioning. The aim of 
+APM-CDF is “to high speed APM-CDF implementation along superior operational frequency”. The fundamental arithmetic
+procedures have addition with multiplication. Generally, ternary logic needs low components, it realizes higher
+data transmission during interlink wires. Hence, it occupies lower area than binary for distributed functions.
+It processes the data effectually with higher speed. These are motivated to design arithmetic and logic circuits
+for APM-CDF.
 Digital filters are practical DSP structures for signal processing, estimation, and analysis. With the advent of 
 VLSI-based technology, a number of processes needed for creating digital filters has gradually decreased, which has
 encouraged the creation of on-chip VLSI-oriented structure for DSP applications. The fundamental function of digital 
-filters is multiplication, which necessitates additional hardware under space, speed,delaycomponents,andpowerconsumption
-,resultinginineffectivefilterdesign. So,itisessentialtodecreasetheseparametersandtodecreasethearithmeticperformed
-under multiplier.
-Thisworkdesignscapriciousdigitalfilterdependingonallpassmakeover.Baugh— Wooley multiplier and ERCPAA is considered 
+filters is multiplication, which necessitates additional hardware under space, speed,delay components, and power
+consumption, resulting in ineffective filter design. So, it is essential to decrease the separameters and to decrease
+the arithmetic performed under multiplier.
+This work designs capricious digital filter depending on all pass makeover. Baugh— Wooley multiplier and ERCPAA is considered 
 to accelerate filter model with minimal power consume, area. Here, ERCPAA is a faster binary adder that occupies lower 
 power including area. Also, BWM is utilized to lessen the hardware complex with high speed, lesser area, and lesser 
 power consume. APM-CDF-ERCPAA-BWM filter is applicable in ECG signal noise removing application for presenting filtered
@@ -84,7 +83,7 @@ Empirical Mode Decomposition (EEMD). This approach aimed to effectively remove n
 ECG signals, leading to improved signal-to-noise ratios (SNR). The hybrid MLPT-EEMD model demonstrated superior 
 performance, achieving an SNR of 25.93 dB, significantly higher than the traditional Empirical Mode Decomposition (EMD)
 and other existing methods. This study underscores the potential of hybrid denoising techniques in delivering high-fidelity
-ECG signals for accurate cardiac analysis and diagnosis [35].
+ECG signals for accurate cardiac analysis and diagnosis.
 In recent advancements, FPGA-based denoising techniques have been evaluated to enhance the signal quality of 
 electrocardiograms (ECGs). The study utilized Vivado High-Level Synthesis (HLS) to implement an efficient ECG denoising 
 method on an FPGA platform. The denoising techniques were assessed based on their ability to reduce noise and improve
@@ -92,7 +91,7 @@ signal clarity, using performance metrics such as Mean Squared Error (MSE), Sign
 Signal-to-Noise Ratio (PSNR). The implementation demonstrated significant 
 
 improvements in reducing noise, thereby enhancing the quality of ECG signals, which is critical for accurate diagnosis
-and monitoring in medical applications [36]
+and monitoring in medical applications.
 The implementation of audio and video processing on FPGA-based systems using the Zedboard platform provides significant 
 advantages in terms of performance and flexibility. The approach leverages the hardware capabilities of FPGAs to handle
 parallel processing tasks efficiently. The design and implementation process involves using high-level synthesis (HLS) 
